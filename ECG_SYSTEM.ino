@@ -4,13 +4,13 @@
 #include <NTPClient.h>
 
 
-#define WIFISSID "smart ecg" // Enter WifiSSID here
-#define PASSWORD "ecg12345" // Enter password here
-#define TOKEN "BBFF-vzfMCoKJfepaNqSOLjmLpAJxDgNaYW" // Ubidots' TOKEN
-#define MQTT_CLIENT_NAME "mymqttclient" // MQTT client Name
+#define WIFISSID "your_wifi_ssid" // Enter WifiSSID here
+#define PASSWORD "your_wifi_pass" // Enter password here
+#define TOKEN "your_ubidots_token" // Ubidots' TOKEN
+#define MQTT_CLIENT_NAME "client_name" // MQTT client Name
 // * Define Constants
-#define VARIABLE_LABEL "ecg_sensor_data" // ubidots variable label
-#define DEVICE_LABEL "ECG_Monitoring_System" // ubidots device label
+#define VARIABLE_LABEL "your_variable_label" // ubidots variable label
+#define DEVICE_LABEL "your_device_label" // ubidots device label
 
 
 #define SENSORPIN A0 // Set the A0 as SENSORPIN
